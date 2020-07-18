@@ -32,16 +32,13 @@ function brickCalculator (floor){
    }else if (floor > 20){
     var bricksCount = floor * 1000;
     return bricksCount;
+   }else{
+      console.log('enter the valid number');
    }
 }
 
  var result = brickCalculator(15);
  console.log(result);
-
-
-
-
-
 
 //problem number-4
 //tinyFriends
@@ -54,9 +51,6 @@ function tinyFriend(arry) {
 		else 
 			return prevName;
 	})
-	
-	
 }
-
 var result = tinyFriend(['helloWorld', 'shohag', 'sajidsss']);
 console.log(result);
